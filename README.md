@@ -108,3 +108,7 @@ Admins and Teachers have not only access to `students's portal` but also they ca
 
 Admins have not only access to `Students's Portal` but also they can `Teacher's Portal`.
 In short, Admin is a person having 100% authority of doing changes to <i><b>leaners</b></i>.
+
+## Give a Star⭐
+
+Give a Star if you Like it❤️
