@@ -57,6 +57,15 @@ When a user clicks on `Buy Now` button, a window will appear that will provide a
 
 After paying particular amount for each course, user will get it's course🎉.
 
+### <i><b>Student's Reviews</b></i>
+
+Users can add reviews about the course that will be displayed at <i><b>learners</b></i> as a part of user experience that what people think about the course they have been enrolled into and whether they find it useful or not?
+
+
 ![learners image](./github_lms_pic/pic9.JPG)
 ![learners image](./github_lms_pic/pic10.JPG)
 ![learners image](./github_lms_pic/pic100.JPG)
+
+## Logout of <i><b>learners</b></i>
+
+Users can simply `Logout` by pressing the `Logout Button` at the top right corner of application and can `Login` to their account again whenever they want. 
