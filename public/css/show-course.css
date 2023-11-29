@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.web-course {
+    background-color: yellow;
+    border: 3px solid #008000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+.image {
+    width: 100%;
+    height: 300px;
+}
+h1.offered-courses {
+    margin: 20px;
+    font-size: 40px;
+}
+@media only screen and (max-width: 1200px) {
+    .projects-gallery {
+        padding: 40px;
+        max-width: 100vw; /* This sets the maximum width to the viewport width */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .web-course {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .projects-gallery {
+        max-width: 100vw; /* This sets the maximum width to the viewport width */
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .web-course {
+        width: 90%;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .projects-gallery {
+        gap: 10px 30px;
+    }
+    .image {
+        width: 100%;
+        height: 200px;
+    }
+    h1.offered-courses {
+        margin: 10px;
+        font-size: 35px;
+    }
+}

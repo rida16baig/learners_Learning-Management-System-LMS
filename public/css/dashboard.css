@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque&family=Dancing+Script:wght@600&family=Inconsolata&family=Jost&family=Lato:wght@300;400&family=Montserrat:wght@300&family=Mukta&family=Open+Sans:wght@300&family=Preahvihear&family=Roboto+Slab&family=Young+Serif&display=swap");
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --yellow: yellow;
+    --green: rgb(18, 148, 18);
+}
+.super > .hero-container > .hero-container-content > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 50px;
+}
+
+.super > .hero-container > .hero-container-content > h1 > span {
+    font-family: "Dancing Script", cursive;
+}
+.hero-container {
+    background-color: var(--yellow);
+    min-height: 40vh;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+.hero-container > div.hero-container-content {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    min-height: 80%;
+    width: 100%;
+    margin: 50px;
+}
+
+/* Define a keyframe animation */
+@keyframes imageAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply the animation to your image */
+.hero-container-img img {
+    animation: imageAnimation 4s ease-in-out infinite;
+}
+
+.course-heading {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: green;
+    text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow,
+        1px 1px 0 yellow;
+}
+
+/*-------------------------- media queries--------------------------- */
+@media only screen and (max-width: 1100px) {
+    .hero-container > div.hero-container-content {
+        padding:0px 20px;
+        height: auto;
+        width: 100vw;
+        display: block;
+        text-align: center;
+    }
+    .hero-container > .hero-container-img > .comp-img {
+        width: 0px;
+    }
+    .super > .hero-container > .hero-container-content > h1 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 1600px) {
+    .super > .hero-container > .hero-container-content > h1 {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+    }
+
+    .super > .hero-container > .hero-container-content > h1 > span {
+        font-family: "Dancing Script", cursive;
+    }
+    .hero-container {
+        background-color: var(--yellow);
+        min-height: 40vh;
+    }
+
+    .hero-container {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-container > div.hero-container-content {
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-container-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: 5px 5px 15px black;
+        min-height: 80%;
+        width: 100%;
+        margin: 50px;
+    }
+    .comp-img {
+        width: 500px;
+    }
+}
