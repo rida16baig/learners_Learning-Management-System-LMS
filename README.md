@@ -111,4 +111,4 @@ In short, Admin is a person having 100% authority of doing changes to <i><b>lean
 
 ## Give a Star⭐
 
-Give a Star if you Like it❤️
+Give a Star if you Liked it❤️
