@@ -21,7 +21,7 @@ All courses offered by <i><b>learners</b></i> are categories such as `Web Develo
 
 <hr>
 
-## <i><b>Student's Portal Outlook</b></i>
+# <i><b>Student's Portal Outlook</b></i>
 
 ![learners image](./github_lms_pic/pic2.JPG)
 ![learners image](./github_lms_pic/pic3.JPG)
@@ -57,6 +57,10 @@ When a user clicks on `Buy Now` button, a window will appear that will provide a
 
 After paying particular amount for each course, user will get it's course🎉.
 
+### <i><b>Course Video</b></i>
+
+User can not only watch video of the respective course but also they can `download video` , `control playback speed` and can have `full screen view`. 
+
 ### <i><b>Student's Reviews</b></i>
 
 Users can add reviews about the course that will be displayed at <i><b>learners</b></i> as a part of user experience that what people think about the course they have been enrolled into and whether they find it useful or not?
@@ -69,3 +73,38 @@ Users can add reviews about the course that will be displayed at <i><b>learners<
 ## Logout of <i><b>learners</b></i>
 
 Users can simply `Logout` by pressing the `Logout Button` at the top right corner of application and can `Login` to their account again whenever they want. 
+
+<hr>
+
+# <i><b>Admin's Portal Outlook</b></i>
+
+![learners image](./github_lms_pic/pic15.JPG)
+
+# <i><b>Teacher's Portal Outlook</b></i>
+
+![learners image](./github_lms_pic/pic20.JPG)
+
+## Admin and Teacher Authorities
+
+Admins and Teachers have not only access to `students's portal` but also they can `Add New Course` , `View All Courses` , `Add New Categories` , `View All Categories` and `Manage All Courses & Categories`.
+
+### View All Courses
+
+![learners image](./github_lms_pic/pic16.JPG)
+
+### Create Course
+
+![learners image](./github_lms_pic/pic17.JPG)
+
+### View All Categories
+
+![learners image](./github_lms_pic/pic18.JPG)
+
+### Create Category
+
+![learners image](./github_lms_pic/pic19.JPG)
+
+## Admin Authorities
+
+Admins have not only access to `Students's Portal` but also they can `Teacher's Portal`.
+In short, Admin is a person having 100% authority of doing changes to <i><b>leaners</b></i>.
