@@ -32,8 +32,31 @@ When a student clicks on web development, all courses related to web development
 
 Taking Web development as a example, we will now see that how window appears to a user when a user click on it.
 
-### Web Development Courses
+### <b><i>Web Development Courses</i></b>
 
 ![learners image](./github_lms_pic/pic4.JPG)
 ![learners image](./github_lms_pic/pic5.JPG)
 
+
+## Clicking on a Particular Course of Web Development i.e CSS
+
+When a student clicks on CSS Course, a new window related to css course will be appear.Similary in case of `HTML` or any other course. Each Course has it's own specifications.
+
+Taking CSS as a example, we will now see that how window appears to a user when a user click on it.
+
+![learners image](./github_lms_pic/pic6.JPG)
+![learners image](./github_lms_pic/pic7.JPG)
+
+## Buy Course to Start Your Learning Journey with <i><b>learners</b></i>
+
+When a user clicks on `Buy Now` button, a window will appear that will provide all billing facilities to a user.
+
+![learners image](./github_lms_pic/pic8.JPG)
+
+### Fill all details and click on `Pay Now` button to buy course
+
+After paying particular amount for each course, user will get it's course🎉.
+
+![learners image](./github_lms_pic/pic9.JPG)
+![learners image](./github_lms_pic/pic10.JPG)
+![learners image](./github_lms_pic/pic100.JPG)
